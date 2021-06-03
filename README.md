@@ -6,3 +6,5 @@ Draws sketch tracking the index finger of your hand, the project uses Mediapipe 
 ## To exit press Enter
 ## To erase press BackSpace
 ## To draw use your index finger
+# Youtube
+https://youtu.be/W9gVDI-E0AI
