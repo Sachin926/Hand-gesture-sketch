@@ -6,7 +6,7 @@ import cv2 as cv
 class handTrack:
 	def __init__(self, number):
 		self.mpHands = mp.solutions.hands
-		self.hands = self.mpHands.Hands(static_image_mode = False, max_num_hands = number, min_detection_confidence = 0.90)
+		self.hands = self.mpHands.Hands(static_image_mode = False, max_num_hands = number, min_detection_confidence = 0.75)
 		self.mpDraw = mp.solutions.drawing_utils
 		self.board = np.ones(shape = (480, 640, 3), dtype = "uint8") * 0
 
